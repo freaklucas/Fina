@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\Developer\\Fina\\Fina.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\Developer\\Fina\\Fina.Web\\obj\\Debug\\net8.0\\compressed\\jaebm90jw5.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\Developer\\Fina\\Fina.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Fina.web.styles.css",
+      "PackagePath": "staticwebassets\\Fina.web.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\Developer\\Fina\\Fina.Web\\obj\\Debug\\net8.0\\service-worker-assets.js",
+      "PackagePath": "staticwebassets\\service-worker-assets.js"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\Developer\\Fina\\Fina.Web\\obj\\Debug\\net8.0\\service-worker\\service-worker.published.js",
+      "PackagePath": "staticwebassets\\service-worker.js"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\Developer\\Fina\\Fina.Web\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\Developer\\Fina\\Fina.Web\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\Developer\\Fina\\Fina.Web\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\Developer\\Fina\\Fina.Web\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\Developer\\Fina\\Fina.Web\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\Developer\\Fina\\Fina.Web\\wwwroot\\icon-512.png",
+      "PackagePath": "staticwebassets\\icon-512.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\Developer\\Fina\\Fina.Web\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\Developer\\Fina\\Fina.Web\\wwwroot\\manifest.webmanifest",
+      "PackagePath": "staticwebassets\\manifest.webmanifest"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\Developer\\Fina\\Fina.Web\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Fina.web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Fina.web.props",
+      "PackagePath": "build\\Fina.web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Fina.web.props",
+      "PackagePath": "buildMultiTargeting\\Fina.web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Fina.web.props",
+      "PackagePath": "buildTransitive\\Fina.web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
