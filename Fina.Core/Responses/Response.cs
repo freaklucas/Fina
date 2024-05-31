@@ -7,7 +7,7 @@ namespace Fina.Core.Responses;
 /// </summary>
 /// <typeparam name="TData"></typeparam>
 
-public abstract class Response<TData>
+public class Response<TData>
 {
     [JsonConstructor]
     public Response() => _code = Configuration.DefaultStatusCode;
