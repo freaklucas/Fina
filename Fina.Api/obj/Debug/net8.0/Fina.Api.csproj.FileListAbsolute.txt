@@ -8,6 +8,7 @@ C:\Users\lucas\Documents\Developer\Fina\Fina.Api\bin\Debug\net8.0\Fina.Api.pdb
 C:\Users\lucas\Documents\Developer\Fina\Fina.Api\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\lucas\Documents\Developer\Fina\Fina.Api\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\lucas\Documents\Developer\Fina\Fina.Api\bin\Debug\net8.0\Humanizer.dll
+C:\Users\lucas\Documents\Developer\Fina\Fina.Api\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\lucas\Documents\Developer\Fina\Fina.Api\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\lucas\Documents\Developer\Fina\Fina.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 C:\Users\lucas\Documents\Developer\Fina\Fina.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -28,9 +29,13 @@ C:\Users\lucas\Documents\Developer\Fina\Fina.Api\bin\Debug\net8.0\Microsoft.Iden
 C:\Users\lucas\Documents\Developer\Fina\Fina.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\lucas\Documents\Developer\Fina\Fina.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\lucas\Documents\Developer\Fina\Fina.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\lucas\Documents\Developer\Fina\Fina.Api\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Users\lucas\Documents\Developer\Fina\Fina.Api\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 C:\Users\lucas\Documents\Developer\Fina\Fina.Api\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\lucas\Documents\Developer\Fina\Fina.Api\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\lucas\Documents\Developer\Fina\Fina.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\lucas\Documents\Developer\Fina\Fina.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\lucas\Documents\Developer\Fina\Fina.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\lucas\Documents\Developer\Fina\Fina.Api\bin\Debug\net8.0\System.CodeDom.dll
 C:\Users\lucas\Documents\Developer\Fina\Fina.Api\bin\Debug\net8.0\System.Composition.AttributedModel.dll
 C:\Users\lucas\Documents\Developer\Fina\Fina.Api\bin\Debug\net8.0\System.Composition.Convention.dll
@@ -116,6 +121,7 @@ C:\Users\lucas\Documents\Developer\Fina\Fina.Api\obj\Debug\net8.0\Fina.Api.Gener
 C:\Users\lucas\Documents\Developer\Fina\Fina.Api\obj\Debug\net8.0\Fina.Api.AssemblyInfoInputs.cache
 C:\Users\lucas\Documents\Developer\Fina\Fina.Api\obj\Debug\net8.0\Fina.Api.AssemblyInfo.cs
 C:\Users\lucas\Documents\Developer\Fina\Fina.Api\obj\Debug\net8.0\Fina.Api.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Documents\Developer\Fina\Fina.Api\obj\Debug\net8.0\Fina.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\lucas\Documents\Developer\Fina\Fina.Api\obj\Debug\net8.0\Fina.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\lucas\Documents\Developer\Fina\Fina.Api\obj\Debug\net8.0\Fina.Api.sourcelink.json
 C:\Users\lucas\Documents\Developer\Fina\Fina.Api\obj\Debug\net8.0\staticwebassets.build.json
