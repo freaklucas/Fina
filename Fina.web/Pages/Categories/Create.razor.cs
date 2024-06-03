@@ -32,11 +32,13 @@ namespace Fina.web.Pages.Categories
             {
                 var result = await Handler.CreateAsync(InputModel);
 
-                if (result.IsSuccess)
+                if (!result.IsSuccess)
                 {
-                    Snackbar.Add(result.Message, Severity.Success);
-                    NavigationManager.NavigateTo("/categorias");
+                    Snackbar.Add(result.Message, Severity.Error);
                 }
+
+                Snackbar.Add(result.Message, Severity.Success);
+                NavigationManager.NavigateTo("/categorias");
             }
             catch (Exception e)
             {

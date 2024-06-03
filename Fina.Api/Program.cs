@@ -18,6 +18,22 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(connectionString));
 
+// Configuração do CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("CorsPolicy", builder =>
+    {
+        builder.WithOrigins("https://localhost:7053")
+            .AllowAnyMethod()
+            .AllowAnyHeader()
+            .AllowCredentials();
+    });
+});
+
+// Adiciona autenticação e autorização
+builder.Services.AddAuthentication();
+builder.Services.AddAuthorization();
+
 builder.AddConfiguration();
 builder.AddDataContexts();
 builder.AddCrossOrigin();
@@ -26,10 +42,16 @@ builder.AddServices();
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment()) 
+if (app.Environment.IsDevelopment())
     app.ConfigureDevEnvironment();
 
-app.UseCors(ApiConfiguration.CorsPolicyName);
+// Use a política CORS definida
+app.UseCors("CorsPolicy");
+
+// Adiciona autenticação e autorização ao pipeline
+app.UseAuthentication();
+app.UseAuthorization();
+
 app.MapEndPoints();
 
 app.Run();

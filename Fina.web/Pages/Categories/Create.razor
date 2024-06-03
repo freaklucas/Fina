@@ -1,6 +1,30 @@
-﻿namespace Fina.web.Pages.Categories
-{
-    public class Create
-    {
-    }
-}
+﻿@page "/categorias/adicionar"
+@inherits CreateCategoryPage
+
+<MudText Typo="Typo.h3">Nova categoria</MudText>
+
+<MudPaper Class="pa-8 mt-4">
+    <EditForm Model="@InputModel" OnValidSubmit="OnValidSubmitAsync">
+        <DataAnnotationsValidator />
+        <MudTextField 
+            Label="Título" 
+            HelperText="Campo Obrigatório"
+            @bind-Value="@InputModel.Title"
+            For="@(() => InputModel.Title)"
+        />
+        
+        <MudTextField Label="Descrição"
+                      Lines="5"
+                      HelperText="Campo Obrigatório"
+                      @bind-Value="@InputModel.Description"
+                      For="@(() => InputModel.Description)" />
+            
+        <MudButton 
+            ButtonType="ButtonType.Submit"
+            Variant="Variant.Filled"
+            Color="Color.Primary"
+            >
+            Salvar
+        </MudButton>
+    </EditForm>
+</MudPaper>
